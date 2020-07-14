@@ -1,0 +1,289 @@
+body {
+    	font: 400 15px Lato, sans-serif;
+    	line-height: 1.8;
+    	color: #818181;
+    	-webkit-font-smoothing: antialiased;
+	}
+	h1 {
+	    font-size: 26px;
+	    color:rgb(0, 141, 203);
+	    font-weight: 600;
+	    margin-bottom: 34px;
+	}
+	h2 {
+	    font-size: 24px;
+	    text-transform: none;
+	    color: rgb(0, 141, 203);
+	    font-weight: 600;
+	    margin-bottom: 30px;
+	}
+	h4 {
+	    font-size: 19px;
+	    line-height: 1.375em;
+	    color: rgb(0, 141, 203);
+	    font-weight: 400;
+	    margin-bottom: 30px;
+	}
+  p {
+    font-size: 16px;
+  }
+	.jumbotron { 
+		font-family: Montserrat, sans-serif;
+	    background-color: #02745b; /* Yellow */
+	    color: #ffffff;
+		padding: 100px 25px;
+	}
+	.container-fluid {
+	    padding: 60px 50px;
+	}
+	.bg-grey {
+    	background-color: #f6f6f6;
+	}
+	.logo {
+	    font-size: 200px;
+	}
+	.logo-small {
+	    color: #efcd28;
+	    font-size: 50px;
+	}
+
+	.logo {
+	    color: #efcd28;
+	    font-size: 200px;
+	}
+	.navbar {
+		font-family: Montserrat, sans-serif;
+	    margin-bottom: 0;
+	    background-color: #efcd28; /* #feca0a; #f7931d;*/
+	    z-index: 9999;
+	    border: 0;
+	    font-size: 12px !important;
+	    line-height: 1.42857143 !important;
+	    letter-spacing: 4px;
+	    border-radius: 0;
+	}
+
+	.navbar li a, .navbar .navbar-brand {
+	    color: #fff !important;
+	}
+
+	.navbar-nav li a:hover, .navbar-nav li.active a {
+	    color: #efcd28 !important;
+	    background-color: #fff !important;
+	}
+
+	.navbar-default .navbar-toggle {
+	    border-color: transparent;
+	    color: #fff !important;
+	}
+		footer .glyphicon {
+	    font-size: 20px;
+	    margin-bottom: 20px;
+	    color: #efcd28;
+	}
+	@media screen and (max-width: 768px) {
+	    .col-sm-4 {
+	        text-align: center;
+	        margin: 25px 0;
+	    }
+	}
+	@media screen and (max-width: 980px) {
+		.container-fluid#home, .container-fluid#services, .container-fluid#contact {
+			width:100% !important;
+		}
+	}
+	@media screen and (max-width: 480px) {
+		.carousel-caption {
+			display:none;		
+		}
+		.navbar-brand {
+			font-size:14px !important;
+		}
+		.container-fluid {
+			padding: 10px 20px;
+		}
+		.h1, .h2, .h3, h1, h2, h3 {
+			margin-top: 10px;	
+			margin-bottom: 10px;	
+		}
+		.carousel-inner .item {
+			margin-top:30px;
+		}
+		#services, #contact {
+			margin-top: 50px;
+		}
+	}
+
+  .panel {
+    border: 1px solid #008dcb; 
+    border-radius:0;
+    transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+.panel-footer .btn:hover {
+    border: 1px solid #008dcb;
+    background-color: #fff !important;
+    color: #008dcb;
+}
+
+.panel-heading {
+    color: #fff !important;
+    background-color: #008dcb !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#myCarousel img {
+	width: 100%;
+}
+
+#footer { 
+	background: rgb(0, 141, 203);
+	color: #fff;
+}
+#footer a {
+	color:#efcd28;
+}
+`{
+	text-decoration:underline;
+}
+.container-fluid#home, .container-fluid#services, .container-fluid#contact {
+	width:80%;
+}
+#home .panel-heading {
+	color: #fff !important;
+    background-color: rgb(0, 141, 203) !important;
+    padding: 15px;
+    border-bottom: 0px solid;
+}
+#home .panel {
+	border:1px solid #efcd28;
+}
+#home .panel h1, h2 {
+	color: #efcd28;
+}
+#home .panel h2 {
+	font-size:22px;
+}
+
+#home .col-sm-4:nth-child(3) .panel-body {
+	padding: 15px 0 !important;	
+	background-color: #777;
+}
+#home .col-sm-4:nth-child(3) .panel-body p { 
+	border-bottom: 1px solid rgb(239, 205, 40);
+	color: rgb(239, 205, 40);
+	font-size: 18px;
+	padding: 0 15px;
+}
+#home .col-sm-4:nth-child(3) .panel-body p img{ 
+	vertical-align:bottom;
+	margin: 0 15px;
+}
+#home .col-sm-4:nth-child(3) .panel-body p:nth-child(4) { 
+	border-bottom: 0px;
+}
+#home .row:nth-child(2) {
+	margin-top: 50px;
+}
+#services .col-sm-4:nth-child(1) .panel {
+	background-color: rgb(0, 141, 203);
+	color: #fff;
+	opacity: 0.9;
+}
+#services .col-sm-4:nth-child(2) .panel {
+	background-color: #666; /*#30b457;*/
+	color: #fff;
+	opacity: 0.9;
+}
+#services .col-sm-4:nth-child(3) .panel {
+	background-color: rgb(0, 165, 79);
+	color: #fff;
+	opacity: 0.9;
+}
+#services .panel-body {
+	border: 1px solid rgb(255, 255, 255);
+    margin: 15px;
+    height: 360px;
+ }
+#services .panel-body p {
+    font-size: 18px !important;
+ }
+.facebook, .twitter {
+ 	padding: 0 5px;
+}
+.carousel-caption {
+	color: rgb(0, 141, 203);
+    background-color: #333;
+    width: 100%;
+    opacity:0.8;
+    bottom: 0px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    margin-left: 30%;
+    text-align: left;
+    padding-left: 50px;
+}
+.carousel-caption h3 {
+	margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* ==========================================================================
+   	laptop  width 1365 resolution
+   ========================================================================== */
+
+@media (max-width:1365px) {
+	.container-fluid#home, .container-fluid#services, .container-fluid#contact {
+		width: 90%;
+	}
+	#services .panel-body {
+    	height: 350px;
+ 	}
+}
+
+/* ==========================================================================
+   	laptop  width 1200 resolution
+   ========================================================================== */
+
+@media (max-width:1200px) {
+	.container-fluid#home, .container-fluid#services, .container-fluid#contact {
+		width: 100%;
+	}
+	#services .panel-body {
+    	height: 100%;
+ 	}
+}
+
+/* ==========================================================================
+   	Portrait ipad and android Tablets  width 991 
+   ========================================================================== */
+
+@media (max-width: 991px) {
+	.container-fluid#home, .container-fluid#services, .container-fluid#contact {
+		width: 100%;
+	}
+	#services .panel-body {
+    	height: 100%;
+ 	}
+}
+
+/* ==========================================================================
+   	Portrait ipad and android Tablets  width 768 
+   ========================================================================== */
+
+@media (max-width: 768px) {
+	.container-fluid#home, .container-fluid#services, .container-fluid#contact {
+		width: 100%;
+	}
+	#services .panel-body {
+    	height: 100%;
+ 	}
+}
